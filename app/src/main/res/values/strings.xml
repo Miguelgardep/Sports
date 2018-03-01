@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Sports matches</string>
+
+    <!-- Index -->
+    <string name="football">Football</string>
+    <string name="basketball">Basketball</string>
+    <string name="tennis">Tennis</string>
+    <string name="sports_tournaments">Sport Tournaments</string>
+    <!-- Index -->
+
+    <!-- List -->
+    <string name="num_matches">Number of matches: </string>
+    <!-- List -->
+
+    <!-- AndroidManifest -->
+    <string name="basketball_matches">Basketball matches</string>
+    <string name="football_matches">Football matches</string>
+    <string name="tennis_matches">Tennis matches</string>
+    <!-- AndroidManifest -->
+
+    <!-- Line.xml -->
+    <string name="date">Date: </string>
+    <string name="hour">Hour: </string>
+    <string name="participant1">Participant 1: </string>
+    <string name="participant2">Participant 2: </string>
+    <string name="prize">Prize: </string>
+    <string name="place">Place: </string>
+    <!-- Line.xml -->
+
+    <!-- activity_insert.xml -->
+    <string name="tournament_id">Id of the tournament</string>
+    <string name="tournament_hour">Hour of the tournament</string>
+    <string name="tournament_date">Date of the tournament</string>
+    <string name="tournament_nameParticipant1">Name of the participant 1</string>
+    <string name="tournament_nameParticipant2">Name of the participant 2</string>
+    <string name="inicial_prize" translatable="false">0</string>
+    <string name="tournament_place">Place of the tournament</string>
+    <string name="id" translatable="false">Id: </string>
+    <string name="accept">Accept</string>
+    <!-- activity_insert.xml -->
+
+    <!-- InsertDialog.java -->
+    <string name="insertion">Insertion</string>
+    <string name="id_date">Date</string>
+    <string name="invalid_date">The date has to be after now</string>
+    <string name="valid_date">The date is before now</string>
+    <string name="message_newId">The id of our new search is:</string>
+    <string name="message_incorrectDeleted">The search has not been deleted \nalready exist a match with the id:</string>
+    <string name="have_to_indicate">You have to indicate</string>
+    <!-- InsertDialog.java -->
+
+    <!-- ModifyDialog.java -->
+    <string name="modification">Modification</string>
+    <string name="message_modify">The modify was successful</string>
+    <!-- ModifyDialog.java -->
+
+    <!-- main_menu.xml -->
+    <string name="insert">Insert search</string>
+    <string name="author_message">About</string>
+    <!-- main_menu.xml -->
+
+    <!-- contextual_menu.xml -->
+    <string name="modify">Modify match</string>
+    <string name="delete">Delete match</string>
+    <!-- contextual_menu.xml -->
+
+    <!-- Query.java -->
+    <string name="message_correctDeleted">Deleted successfully</string>
+    <string name="message_co">This is an example of an app done with SQLite</string>
+    <!-- Query.java -->
+
+    <!-- Comparators -->
+    <string name="prize_sortBy">Sort by prize</string>
+    <string name="place_sortBy">Sort by place</string>
+    <string name="date_comparator">Sort by date</string>
+    <string name="place_comparator">Sort by place</string>
+    <!-- Comparators -->
+
+    <!-- Notification -->
+    <string name="atention">Atention!</string>
+    <string name="match_deleted">A match has been deleted</string>
+    <!-- Notification -->
+
+</resources>

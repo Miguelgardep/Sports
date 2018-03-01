@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView1Modify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvHourm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/hour" />
+
+            <Spinner
+                android:id="@+id/sInsHourm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true">
+
+                <requestFocus />
+            </Spinner>
+
+            <TextView
+                android:id="@+id/tvNameParticipant1m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/sInsHourm"
+                android:text="@string/participant1" />
+
+            <EditText
+                android:id="@+id/etInsNameParticipant1m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/sInsHourm"
+                android:hint="@string/tournament_nameParticipant1" />
+
+            <TextView
+                android:id="@+id/tvNameParticipant2m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/etInsNameParticipant1m"
+                android:text="@string/participant2" />
+
+            <EditText
+                android:id="@+id/etInsNameParticipant2m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/etInsNameParticipant1m"
+                android:hint="@string/tournament_nameParticipant2" />
+
+            <TextView
+                android:id="@+id/tvPrizem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/etInsNameParticipant2m"
+                android:text="@string/prize" />
+
+            <EditText
+                android:id="@+id/etInsPrizem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/etInsNameParticipant2m"
+                android:inputType="numberDecimal"
+                android:text="@string/inicial_prize" />
+
+            <TextView
+                android:id="@+id/tvPlacem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/etInsPrizem"
+                android:text="@string/place" />
+
+            <EditText
+                android:id="@+id/etInsPlacem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/etInsPrizem"
+                android:hint="@string/tournament_place" />
+
+            <TextView
+                android:id="@+id/tvDatem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/etInsPlacem"
+                android:text="@string/date" />
+
+            <DatePicker
+                android:id="@+id/dpInsDatem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/tvDatem"
+                android:minDate="01/13/2018"
+                android:datePickerMode="calendar" />
+
+            <Button
+                android:id="@+id/btInsAcceptm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dpInsDatem"
+                android:text="@string/accept" />
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

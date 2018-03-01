@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#56443D</color>
+    <color name="colorPrimaryDark">#271007</color>
+    <color name="colorAccent">#937569</color>
+
+    <!-- Background color for the basketball sport -->
+    <color name="sport_basketball">#379237</color>
+
+    <!-- Background color for the football sport -->
+    <color name="sport_football">#16AFCA</color>
+
+    <!-- Background color for the tennis sport -->
+    <color name="sport_tennis">#8800A0</color>
+</resources>

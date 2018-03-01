@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Torneos de deportes</string>
+    <string name="sports_tournaments">Torneos de deportes</string>
+    <string name="num_matches">Número de partidos</string>
+    <string name="basketball_matches">Partidos de baloncesto</string>
+    <string name="football_matches">Partidos de fútbol</string>
+    <string name="football">Fútbol</string>
+    <string name="basketball">Baloncesto</string>
+    <string name="tennis">Tenis</string>
+    <string name="tennis_matches">Partiso de tenis</string>
+    <string name="date">Fecha:</string>
+    <string name="hour">Hora:</string>
+    <string name="participant1">Participante 1:</string>
+    <string name="participant2">Participante 2:</string>
+    <string name="prize">Premio:</string>
+    <string name="place">Lugar:</string>
+    <string name="tournament_id">Id del torneo</string>
+    <string name="tournament_hour">Hora del torneo</string>
+    <string name="tournament_date">Fecha del torneo</string>
+    <string name="tournament_nameParticipant1">Nombre del participante 1</string>
+    <string name="tournament_nameParticipant2">Nombre del participante 2</string>
+    <string name="tournament_place">Lugar del torneo</string>
+    <string name="accept">Aceptar</string>
+    <string name="id_date">Fecha</string>
+    <string name="invalid_date">La fecha tiene que ser a partir de ahora</string>
+    <string name="valid_date">La fecha es anterior a ahora</string>
+    <string name="message_newId">El id de tu registro es:</string>
+    <string name="message_incorrectDeleted">El registro no se ha modificado</string>
+    <string name="message_modify">Se ha producido el cambio</string>
+    <string name="insert">Insertar registro</string>
+    <string name="author_message">Acerca de</string>
+    <string name="modify">Modificar partido</string>
+    <string name="delete">Borrar partido</string>
+    <string name="message_correctDeleted">Se ha borrado con éxito</string>
+    <string name="message_co">Esto es un ejemplo de una aplicación hecha con SQLite</string>
+    <string name="date_comparator">Comparar por fecha</string>
+    <string name="place_comparator">Comparar por lugar</string>
+    <string name="have_to_indicate">Tienes que indicar</string>
+    <string name="modification">Modificación</string>
+    <string name="prize_sortBy">Sort by prize</string>
+    <string name="place_sortBy">Sort by place</string>
+    <string name="insertion">Inserción</string>
+    <string name="atention">Atención!</string>
+    <string name="match_deleted">Un partido ha sido borrado</string>
+</resources>

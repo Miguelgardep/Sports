@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item1"
+        android:title="@string/insert"
+        android:icon="@android:drawable/ic_menu_add">
+    </item>
+
+    <item
+        android:id="@+id/item2"
+        android:title="@string/prize_sortBy">
+    </item>
+
+    <item
+        android:id="@+id/item3"
+        android:title="@string/place_sortBy">
+    </item>
+
+    <item android:id="@+id/item4"
+        android:title="@string/author_message"
+        android:icon="@android:drawable/ic_menu_info_details">
+    </item>
+</menu>
